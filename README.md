@@ -1,7 +1,9 @@
-# COMEDI Raspberry pi bullseye kernel drivers
+# COMEDI Raspberry pi USB bullseye kernel drivers
 
 Raspberry PI has removed the COMEDI framework from the standard kernel.
 In order to use COMEDI devices you need to compile and install comedi.
+
+Only the drivers for USB devices are compiled such as the USB-DUX boards.
 
 ## Compile
 
