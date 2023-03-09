@@ -14,4 +14,5 @@ make -C /usr/src/linux-headers-5.15.84-v8+/ M=$PWD
 ```
 sudo make -C /usr/src/linux-headers-5.15.84-v8+/ M=$PWD modules_install
 sudo modprobe -a
+sudo apt install firmware-linux-free
 ```
