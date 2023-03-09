@@ -11,8 +11,8 @@ Only the drivers for COMEDI USB devices are compiled in particular USB-DUX.
 sudo apt install raspberrypi-kernel
 make -C /usr/src/linux-headers-5.15.84-v8+/ M=$PWD
 ```
-The above kernel header directory in `/usr/src' might differ depending if it's 64bit or 32bit.
-Please check with `ls -l /usr/src'.
+The above kernel header directory in `/usr/src` might differ depending if it's 64bit or 32bit.
+Please check with `ls -l /usr/src`.
 
 ## Install
 
