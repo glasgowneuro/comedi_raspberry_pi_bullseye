@@ -3,7 +3,9 @@
 Raspberry PI has removed the COMEDI framework from the standard kernel.
 In order to use COMEDI devices you need to compile and install comedi.
 
-Only the drivers for COMEDI USB devices are compiled in particular USB-DUX.
+Only the drivers for COMEDI USB devices are compiled in particular [USB-DUX](https://github.com/glasgowneuro/usbdux):
+
+![alt tag](sigmaduxsm.jpg)
 
 ## Compile
 
