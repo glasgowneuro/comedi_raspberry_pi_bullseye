@@ -5,7 +5,7 @@ In order to use COMEDI devices you need to compile and install comedi.
 
 Only the drivers for COMEDI USB devices are compiled in particular [USB-DUX](https://github.com/glasgowneuro/usbdux):
 
-![alt tag](sigmaduxsm.jpg)
+![alt tag](usbdux.jpg)
 
 ## Compile
 
