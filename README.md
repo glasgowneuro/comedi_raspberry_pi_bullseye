@@ -25,3 +25,24 @@ sudo apt install firmware-linux-free
 ```
 
 Edit `/etc/group` and add yourself to the group `iocard`.
+
+Check with
+
+```
+sudo dmesg
+```
+
+if you see:
+
+```
+[ 3506.038554] comedi: version 0.7.76 - http://www.comedi.org
+[ 3506.065482] comedi comedi0: ADC_zero = 80011c
+[ 3506.066796] comedi comedi0: driver 'usbduxsigma' has successfully auto-configured 'usbduxsigma'.
+[ 3506.066849] usbcore: registered new interface driver usbduxsigma
+```
+
+If you get an error message then the firmware is most likely not installed. Make
+sure you install it with:
+```
+sudo apt install firmware-linux-free
+```
