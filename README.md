@@ -20,7 +20,7 @@ Please check with `ls -l /usr/src`.
 
 ```
 sudo make -C /usr/src/linux-headers-5.15.84-v8+/ M=$PWD modules_install
-sudo modprobe -a
+sudo depmod -a
 sudo apt install firmware-linux-free
 ```
 
