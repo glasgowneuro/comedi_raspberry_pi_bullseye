@@ -1,5 +1,12 @@
 # COMEDI Raspberry pi USB bullseye kernel drivers
 
+Works on:
+ - rpi2b
+ - rpi3b
+ - rockpi4c+
+
+Doesn *not* work on a rpi4b (bug in the RPI USB stack).
+
 Raspberry PI has removed the COMEDI framework from the standard kernel.
 In order to use COMEDI devices you need to compile and install comedi.
 
@@ -46,3 +53,5 @@ sure you install it with:
 ```
 sudo apt install firmware-linux-free
 ```
+
+If there is no firmware package copy the firmware `usbduxsigam_firmware.bin` from this repo it to `/lib/firmware`.
